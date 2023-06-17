@@ -1,0 +1,19 @@
+{
+  "name": "node-first-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Abinash-bit/Nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Abinash-bit/Nodejs/issues"
+  },
+  "homepage": "https://github.com/Abinash-bit/Nodejs#readme"
+}
