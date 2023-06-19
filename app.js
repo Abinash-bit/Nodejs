@@ -10,7 +10,8 @@ app.use('/add-product' , (req, res, next) => {
 });
 
 app.use('/product', (req, res, next) => {
-    
+    console.log(req.body);
+    res.redirect('/');
 })
 
 app.use('/' , (req, res, next) => {
