@@ -2,11 +2,13 @@ const express = require('express');
 
 const bodyParser = require('body-parser');
 
-app.use(bodyParser.urlencoded());
-
-
-
 const app = express();
+
+app.use(bodyParser.urlencoded({extended: false}));
+
+
+
+
 
 app.use('/add-product' , (req, res, next) => {
     
